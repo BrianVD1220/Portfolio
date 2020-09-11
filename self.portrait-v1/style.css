@@ -37,7 +37,7 @@ img {
 	margin: 0 auto;
 }
 
-#header {
+#header, main {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -57,20 +57,18 @@ img {
 	font-size: 1.5em
 }
 
-#portfolio {
+#portfolio, main {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 2em;
 }
 
-.project {
+.project, main {
 	border: 2.5px solid red;
 	padding: 1em;
 	background-color: transparent;
 	transition: background-color 200ms ease-in;
 }
 
-.project:hover {
+.project, main:hover {
 	background-color: #FFFFFF;
 }
 
@@ -80,12 +78,12 @@ img {
 
 /* About Me */
 
-#portrait {
-	width: 400px;
-	float: right;
+#portrait, main {
+	width: 680px;
+	float: center;
 	border: 2.5px solid red;
 	padding: 1em;
-	background-color: #FFFFFF;
+	background-color: transparent;
 }
 
 #about p {
