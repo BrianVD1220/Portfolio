@@ -1,5 +1,5 @@
 /*
-SelfPortrait_v1
+SelfPortrait_v2
 */
 
 function setup() {
@@ -51,5 +51,4 @@ function draw() {
 	line(395, 95, 395, 130)
 	line(395, 130, 355, 130)
 	line(355, 130, 355, 95)
-
 }
