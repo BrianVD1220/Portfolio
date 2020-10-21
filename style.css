@@ -59,6 +59,7 @@ img {
 
 #portfolio {
 	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2em;
 }
@@ -75,7 +76,7 @@ img {
 }
 
 .project a {
-	font-size: 1.25em
+	font-size: 1.25em;
 }
 
 /* About Me */

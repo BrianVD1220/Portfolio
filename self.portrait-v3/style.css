@@ -54,7 +54,7 @@ img {
 }
 
 #header a{
-	font-size: 1.5em
+	font-size: 1.5em;
 }
 
 #portfolio, main {
@@ -73,7 +73,7 @@ img {
 }
 
 .project a {
-	font-size: 1.25em
+	font-size: 1.25em;
 }
 
 /* About Me */
