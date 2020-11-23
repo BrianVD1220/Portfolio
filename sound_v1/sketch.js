@@ -31,7 +31,7 @@ function draw() {
 
 	//volume
 	var vol = map(mouseY, 0, height, 1, 0);
-	feather.setVolume(vol)
+	feather.setVolume(vol);
 
 	fill(mouseX, 0, mouseY);
 	ellipse(600, mouseY, 20, 20);
