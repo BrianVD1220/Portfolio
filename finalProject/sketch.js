@@ -105,6 +105,8 @@ function draw() {
 
 	//visual for volume
 
+	stroke(0);
+	strokeWeight(2);
 	text("Volume", 300, 15);
 
 	if (vol === .99) {
