@@ -1,0 +1,92 @@
+/* Generic Selector */
+
+body {
+	background-color: #FDB6F9;
+	color: black; /* Text */
+	font-family: Courier New, Courier;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #6C00FF;
+	transition: color 240ms ease-in;
+}
+
+/* Psuedo Selector */
+a:hover {
+	color: #FF0000;
+}
+
+img {
+	width: 100%;
+}
+
+/* ID and Class Selector */
+
+#container, main {
+	min-width: 360px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#header, main {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+/* Nested Selector */
+
+#header ul {
+	display: flex;
+}
+
+#header li {
+	margin-left: 1em; 
+}
+
+#header a{
+	font-size: 1.5em;
+}
+
+#portfolio, main {
+	display: grid;
+}
+
+.project, main {
+	border: 2.5px solid red;
+	padding: 1em;
+	background-color: transparent;
+	transition: background-color 200ms ease-in;
+}
+
+.project, main:hover {
+	background-color: #FFFFFF;
+}
+
+.project a {
+	font-size: 1.25em;
+}
+
+/* About Me */
+
+#portrait, main {
+	width: 600px;
+	float: center;
+	border: 2.5px solid red;
+	padding: 1em;
+	background-color: transparent;
+}
+
+#about p {
+	font-size: 2em;
+	font-family: raleway;
+}
