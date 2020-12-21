@@ -7,19 +7,19 @@ var rotImage;
 var conImage;
 var catImage;
 
-var jet1Width = (50);
-var jet1Height = (50);
-var jet1X = (160);
-var jet1Y = (75);
-var jet1Xspeed = (2);
-var jet1Yspeed = (.5);
+var jet1Width = 50;
+var jet1Height = 50;
+var jet1X = 160;
+var jet1Y = 75;
+var jet1Xspeed = 2;
+var jet1Yspeed = .5;
 
-var jet2Width = (50);
-var jet2Height = (50);
-var jet2X = (560);
-var jet2Y = (25);
-var jet2Xspeed = (2);
-var jet2Yspeed = (.5); 
+var jet2Width = 50;
+var jet2Height = 50;
+var jet2X = 560;
+var jet2Y = 25;
+var jet2Xspeed = 2;
+var jet2Yspeed = .5; 
 
 function preload() {
 
